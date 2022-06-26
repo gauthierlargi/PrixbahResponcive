@@ -1,0 +1,54 @@
+.around-display{
+    display: flex;
+    margin: 0 auto;
+    max-width: 950px;
+}
+
+.display{
+    widows: 300px;
+}
+
+.container-products{
+    display: flex;
+    max-width: 950px;
+    margin: 30px auto;
+    
+}
+
+.container-categorie{
+    margin-right: 100px;
+}
+
+.table-categorie{
+    font-size: 25px;
+    font-weight: bold;
+    padding: 0px 120px 12px 0px;
+}
+
+.list-categorie{
+    font-size: 20px;
+    padding-bottom: 12px;
+}
+
+.container-img{
+    display: flex;
+}
+
+.contour{
+    background-color: rgb(104, 75, 158);
+}
+
+.box-shadow-product{
+    display: flex;
+    align-items: center;
+    padding-right: 300px;
+    background-color: aqua;
+}
+
+
+
+
+
+
+
+

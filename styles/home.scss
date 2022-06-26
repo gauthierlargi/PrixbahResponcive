@@ -1,0 +1,147 @@
+.font{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container-main{
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+.bestsellers{
+    margin-top: 70px;
+    font-weight: 700;
+    color: #EA5455;
+}
+
+.container-scroll{
+    margin: 0 auto;
+    display: flex;
+    max-width: 950px;
+}
+
+.box-shadow{
+    margin: 30px 20px 0px 0px;
+    padding: 18px;
+
+    box-shadow: 0px 0px 10px 1px rgba(192, 192, 192, 0.534) ;
+}
+
+.img-all{
+    height: 160px;
+    width: 190px;
+}
+
+.ham{
+    margin-top: 3px;
+    font-weight: 700;
+}
+
+.price-stock{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+}
+
+.price-stock p:nth-child(2){
+    color: rgb(30, 223, 30);
+}
+
+/*Offre par catégorie*/
+
+.offer{
+    display: flex;
+    font-weight: 700;
+    align-items: baseline ;
+    color: #EA5455;
+    margin: 50px 0px 25px 0px;
+    
+}
+
+.see-all{
+    margin-left: 10px;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap:25px;
+}
+
+.box-grid{
+    height: 128px;
+    width: 120px;
+    border-radius: 40px;
+    
+    text-align: center;
+    color: white;
+    background-color: #2D4059;
+    
+}
+
+.box-text{
+    margin-top: 26px;
+}
+
+
+.choose{
+    margin: 0 auto;
+
+}
+.choose h4{
+    margin: 50px 0px 50px 0px;
+    color: #EA5455;
+    font-weight: bold;
+}
+.choose_select{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.choose_img{
+   margin-bottom: 50px;
+   text-align: center;
+}
+.choose_img img{
+    border: #2d4059 2px solid;
+    height: 200px;
+    width: 230px;
+    margin-bottom: 30px;
+}
+.choose_img p{
+    color: #EA5455;
+    font-weight: bold;
+  }
+
+@media screen and (max-width:980px) {
+    .bestsellers{
+        text-align: center;
+    }
+    .blocmobilefirst{
+        margin: auto;
+        margin-top: 15px;
+    }
+    .bloc_mobile{
+        display: none;
+    }
+    .offer{
+        display: block;
+        text-align: center;
+    }
+    .grid{
+        display: block;
+    }
+    .box-grid{
+        margin: 0 auto;
+        
+    }
+    .box-text{
+        padding-top: 26px;
+    }
+    .choose{
+        display: none;
+    }
+}
